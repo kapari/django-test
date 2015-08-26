@@ -1,7 +1,7 @@
 # django-test
 Just checking out the installation of the Oscar E-commerce package.
 
-## Comparison to other e-commerce packages
+## E-Commerce Comparison
 https://www.djangopackages.com/grids/g/ecommerce/
 
 ## Docs
