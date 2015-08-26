@@ -61,7 +61,7 @@ MIDDLEWARE_CLASSES = (
     # ^^ or add to urls.py: url(r'^pages/', include('django.contrib.flatpages.urls'))
 )
 
-ROOT_URLCONF = 'ecommerce.urls'
+ROOT_URLCONF = 'ecommerce_site.urls'
 
 TEMPLATES = [
     {
@@ -93,7 +93,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-WSGI_APPLICATION = 'ecommerce.wsgi.application'
+WSGI_APPLICATION = 'ecommerce_site.wsgi.application'
 
 SITE_ID = 1
 
