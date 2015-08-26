@@ -26,9 +26,3 @@ urlpatterns = [
 
     url(r'', include(application.urls)),
 ]
-
-HAYSTACK_CONNECTIONS = {
-    'default': {
-        'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
-    },
-}

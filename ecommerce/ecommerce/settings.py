@@ -112,6 +112,12 @@ DATABASES = {
     }
 }
 
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+    },
+}
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -132,4 +138,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
+STATIC_ROOT = '/static/'
+
 # Also set MEDIA_ROOT and STATIC_ROOT if serving files locally
+# Nevermind, STATIC_ROOT required, or it complains. example below:
+# STATIC_ROOT = "/var/www/example.com/static/"
